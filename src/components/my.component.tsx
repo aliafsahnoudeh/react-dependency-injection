@@ -1,7 +1,7 @@
 import { FC, useContext } from 'react';
-import { SERVICE_CONTEXT, LOGGER_CONTEXT } from './constext.list';
-import Service from './service/service'
-import Logger from './logger/logger'
+import { SERVICE_CONTEXT, LOGGER_CONTEXT } from '../common/constext.list';
+import Service from '../services/service/service'
+import Logger from '../services/logger/logger'
 
 
 const MyComponent: FC = ({ children }) => {

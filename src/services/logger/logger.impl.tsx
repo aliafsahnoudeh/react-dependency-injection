@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { LOGGER_CONTEXT } from '../constext.list';
+import { LOGGER_CONTEXT } from '../../common/constext.list';
 import Logger from './logger';
 
 class LoggerImplementation implements Logger {

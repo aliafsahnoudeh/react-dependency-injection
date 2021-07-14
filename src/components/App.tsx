@@ -14,8 +14,8 @@
 import { FC } from 'react';
 import { createModuleFromProvider } from 'rx-react-component';
 import MyComponent from './my.component'
-import SERVICE_PROVIDER from './service/service.provider'
-import LOGGER_PROVIDER from './logger/logger.provider'
+import SERVICE_PROVIDER from '../services/service/service.provider'
+import LOGGER_PROVIDER from '../services/logger/logger.provider'
 import './App.css';
 
 const Module = createModuleFromProvider([SERVICE_PROVIDER, LOGGER_PROVIDER]);
