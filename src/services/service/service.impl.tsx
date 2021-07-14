@@ -1,7 +1,7 @@
 import { FC, useContext } from 'react';
 import Service from "./service"
 import Logger from "../logger/logger"
-import { SERVICE_CONTEXT, LOGGER_CONTEXT } from '../../common/constext.list';
+import { SERVICE_CONTEXT, LOGGER_CONTEXT } from '../../common/context.list';
 
 class ServiceImplementation implements Service {
   private logger;

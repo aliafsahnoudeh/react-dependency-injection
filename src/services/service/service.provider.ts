@@ -1,5 +1,5 @@
 import { ReactProvider } from "../../common/interfaces/react.provider";
-import { SERVICE_CONTEXT, LOGGER_CONTEXT } from '../../common/constext.list';
+import { SERVICE_CONTEXT, LOGGER_CONTEXT } from '../../common/context.list';
 import Service from "./service";
 import ServiceImpl from './service.impl';
 
