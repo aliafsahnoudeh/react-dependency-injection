@@ -1,5 +1,5 @@
-import { ReactProvider } from "./react.provider";
-import { LOGGER_CONTEXT } from './constext.list';
+import { ReactProvider } from "../react.provider";
+import { LOGGER_CONTEXT } from '../constext.list';
 import Logger from "./logger";
 import LoggerImpl from './logger.impl';
 

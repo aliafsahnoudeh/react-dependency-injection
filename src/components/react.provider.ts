@@ -1,4 +1,4 @@
-import { Component, Context } from 'react';
+import { Context } from 'react';
 
 /**
  * Declares a react provider. The provider declares the provided
